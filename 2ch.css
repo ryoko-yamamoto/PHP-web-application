@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 34px;
+  color: #c40000;
+}
+
+.boardWrapper {
+  background-color: #f3eded;
+  padding: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 0px 10px;
+}
+
+section .username {
+  color: #c40000 !important;
+  font-weight: 700;
+}
+
+section .nameArea {
+  display: flex;
+  align-items: center;
+  margin-bottom: -14px;
+}
+
+section .comment {
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.success_message {
+  color: green;
+  padding-left: 10px;
+}
+
+.error_message {
+  color: red;
+  padding-left: 10px;
+}
+
+.formWrapper {
+  padding: 16px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.commentTextArea {
+  margin-top: 10px;
+  width: 500px;
+  height: 90px;
+  box-sizing: border-box;
+}
+
+.submit {
+  font-size: 24px;
+  border-color: black;
+  border-radius: 8px;
+  display: block; /* ブロック要素にする */
+  margin: 10px auto; /* 上下に10pxのマージン、左右に自動マージンを設定 */
+}
+
+time {
+  color: rgb(255, 0, 170);
+}
+
+.error {
+  color: yellow;
+  font-weight: bold;
+  margin-top: 5px;
+  border: 2px solid black;
+  background-color: black;
+  display: inline;
+}
+
+@media screen and (max-width: 575px) {
+  .commentbox {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .commentTextArea {
+    width: 100%;
+  }
+}
